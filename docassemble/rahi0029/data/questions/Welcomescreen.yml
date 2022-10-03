@@ -53,12 +53,41 @@ fields:
       - No Interest Loans for vehicles: nointerloanvehicle
       - Tax Help: taxhelp
 help: |
-  * Emergency Assistance Payment
+ ## What does each service provide?
+  
+ **Emergency Assistance Payment**
     
-    This service
-    This service
-  Escaping Violence Payment: |
-    This service 
+    Through this service you can access vouchers for essential items and services such as:
+    
+  * Food (provided by Foodbank)
+  * Transport 
+  * Chemist
+  * Payment of bills
+
+  **Escaping Violence Payment**
+  
+  This service may be available to you if you are experiencing violence from your partner.
+  
+  The service is designed to provide you with financial assistance if you are leaving a violent partner and are struggling to live safely, away from your partner, due to financial difficulties.
+  
+  **Financial Counselling**
+  
+  Financial counsellors will be able to assist you regarding debt you may have. For example, they can help you to plan a way out of debt, and guide you as to other financial options that may be open to you.
+  
+  Financial counsellors can also talk to debt collectors and creditors on your behalf to resolve issues you may have with debt.
+  
+  *NOTE: UCWB financial counsellors CANNOT advise you on which financial option is best for you. UCWB counsellors can only tell you which options are available to you.*
+  
+  *For advice on which option is best for you, please seek the advice of a licensed financial adviser.* 
+  
+  **No Interest Loans**
+  
+  Both the general no interest loans service and no interest loans for vehicles can provide you with a loan at no interest to purchase essential goods and services.
+  
+  **Tax Help**
+  
+  Trained UCWB volunteers can help you to manage your tax obligations.
+
 action buttons:
   - label: Exit application
     action: exit
