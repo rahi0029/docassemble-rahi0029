@@ -1,0 +1,66 @@
+---
+mandatory: True
+question: Uniting Care Wesley Bowden (UCWB) eligibility
+subquestion: |
+
+  This application is designed to identify whether you are eligible for any of the following services UCWB provides:
+  
+  * Emergency Assistance Payment
+  * Escaping Violence Payment
+  * Financial Counselling
+  * No Interest Loans
+  * No Interest Loans (specifically for vehicles)
+  * Tax Help
+ 
+  ***Privacy disclaimer:***   
+  This application will collect your personal information. 
+  
+  Personal information will include: your full name, address, contact phone number and/or email. 
+  
+  Depending on the services you wish to seek, information about your income may also be collected. 
+  
+  *This information will only be used by UCWB for the purpose of identifying your eligibility for UCWB services, and to be able to contact you.* 
+  
+  **Do you accept these terms?**
+buttons:
+  Exit application: exit
+  Yes: continue
+  No: exit
+---
+mandatory: True
+question: Personal details
+fields:
+  - What is your first name?: clientfirstname
+  - What is your last name?: clientlastname
+  - What suburb do you live in?: clientsuburb
+  - What is your contact phone number?: clientphone
+  - What is your email?: clientemail
+action buttons:
+  - label: Exit application
+    action: exit
+---
+mandatory: True
+question: |
+  Which UCWB services do you wish to access?
+fields:
+  - Select all the services you wish to access: serviceligibilitytorun
+    datatype: checkboxes
+    choices:
+      - Emergency Assistance Payment: emergencyassistpay
+      - Escaping Violence Payment: escapeviolpay
+      - Financial Counselling: fincounselling
+      - No Interest Loans: nointerloan
+      - No Interest Loans for vehicles: nointerloanvehicle
+      - Tax Help: taxhelp
+help: |
+  * Emergency Assistance Payment
+    
+    This service
+    This service
+  Escaping Violence Payment: |
+    This service 
+action buttons:
+  - label: Exit application
+    action: exit
+---
+  
